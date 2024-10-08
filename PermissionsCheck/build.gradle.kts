@@ -82,7 +82,7 @@ dependencies {
 
 publishing {
     publications {
-        register<MavenPublication>("release") {
+        create<MavenPublication>("release") {
             groupId = "com.github.elramadywork"
             artifactId = "permissions-check"
             version = "1.0"
