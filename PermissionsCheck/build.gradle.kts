@@ -79,14 +79,15 @@ dependencies {
 
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("maven") {
-                groupId = "com.github.elramadywork"
-                artifactId = "permissions-check"
-                version = "1.0"
 
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.github.elramadywork"
+            artifactId = "permissions-check"
+            version = "1.0"
+
+            afterEvaluate {
                 from(components["release"])
             }
         }
