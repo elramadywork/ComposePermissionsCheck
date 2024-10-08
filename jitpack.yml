@@ -1,4 +1,8 @@
 jdk:
-  - openjdk11
+  - openjdk17
+
+build:
+  verbose: true
+
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
