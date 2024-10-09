@@ -22,7 +22,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.alexons.myfirstlibrary.ui.theme.MyFirstLibraryTheme
-import com.alexonsn.tavolo.presentation.components.permissions.PermissionsCheckingScreen
+import com.elramady.permissionscheck.presentation.permissions.PermissionsCheckScreen
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -63,7 +63,7 @@ fun CheckPermissions(titlePermission: String, modifier: Modifier = Modifier) {
     }
 
     if (doPermissionScreen) {
-        PermissionsCheckingScreen(
+        PermissionsCheckScreen(
             isRationalUiFirst = false,
             titleRationalUi = "Permission Needed",
             descriptionRationalUi = "Permission is needed for location services",

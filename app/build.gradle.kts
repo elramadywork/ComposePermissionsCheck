@@ -76,7 +76,7 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.49")
     ksp("com.google.dagger:hilt-android-compiler:2.49")
 
-    implementation ("com.github.elramadywork:ElramadyPermissionCheck:v.1.1")
+    implementation ("com.github.elramadywork:ComposePermissionsCheck:1.0.0")
 
 
 
