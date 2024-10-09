@@ -38,7 +38,7 @@ dependencyResolutionManagement {
 
 dependencies {
     // Replace 'latest-version' with the actual latest version number
-    implementation("com.github.elramadywork:ElramadyPermissionCheck:latest-version")
+    implementation("com.github.elramadywork:ComposePermissionsCheck:latest-version")
 }
 ```
 
