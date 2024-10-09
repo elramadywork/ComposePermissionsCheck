@@ -65,9 +65,9 @@ fun CheckPermissions(titlePermission: String, modifier: Modifier = Modifier) {
     if (doPermissionScreen) {
         PermissionsCheckingScreen(
             isRationalUiFirst = false,
-            permissionCode = 200,
+            titleRationalUi = "Permission Needed",
             descriptionRationalUi = "Permission is needed for location services",
-            permissions = arrayOf(Manifest.permission.CAMERA),
+            permissions = arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION),
             onDismiss = { }
         ) { isGranted ->
             if (isGranted) {
