@@ -17,7 +17,7 @@ This is library is used to request and check permession(single or multible) With
 
 To install and use Compose-Permissions-Check Library, follow these step-by-step instructions:
 
-1. Add jitpack in settings.gradle.kts
+1. Add jitpack in **settings.gradle.kts**
 
 ```jsx
 
@@ -32,7 +32,7 @@ dependencyResolutionManagement {
 }
 ```
 
-2. Add this dependency in build.gradle :
+2. Add this dependency in **build.gradle** :
 
 ```jsx
 
