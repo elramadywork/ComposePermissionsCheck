@@ -62,7 +62,19 @@ android:name=".MyApplication"
 
 
 ## Usage
-This is library is used to request and check permession(single or multible) With Rationale UI for only **Jetpack Compose**
+
+
+
+
+
+| Parameter              | Description                                                                                                                                                                                                                        |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| `isRationalUiFirst`         | Boolean Value (true or false) if you want to present Rationale UI.                                                                                                                              |
+| `permissions`         | must be arrayOf permessions(single or multiple) like this arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION).                                                                                                                             |
+| `titleRationalUi`        | for  title Rationale UI. |
+| `descriptionRationalUi` | for  Description Rationale UI.   
+| `resultPermission` | is high order function give you result permission (isGranted or not).  
+
 
 
 
