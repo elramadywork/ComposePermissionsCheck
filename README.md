@@ -118,9 +118,9 @@ fun CheckPermissions(titlePermission: String, modifier: Modifier = Modifier) {
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------| 
 | `isRationalUiFirst`     | Boolean Value (true or false) if you want to present Rationale UI.                                                                                       |
 | `permissions`           | must be arrayOf permessions(single or multiple) like this arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION). |
-| `titleRationalUi`       | for  title Rationale UI.                                                                                                                                 |
-| `descriptionRationalUi` | for  Description Rationale UI.                                                                                                                           |
-| `resultPermission`      | is high order function give you result permission (isGranted or not).                                                                                    |
+| `titleRationalUi`       | for  providing Rationale UI title.                                                                                                                                 |
+| `descriptionRationalUi` | for  providing Rationale UI description.                                                                                                                           |
+| `resultPermission`      | is a high order function give you permission result (isGranted or not).                                                                                    |
 
 ## Don't Forget
 
