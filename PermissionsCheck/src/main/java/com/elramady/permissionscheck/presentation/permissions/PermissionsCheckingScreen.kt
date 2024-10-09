@@ -1,4 +1,4 @@
-package com.alexonsn.tavolo.presentation.components.permissions
+package com.elramady.permissionscheck.presentation.permissions
 
 import android.app.Activity
 import android.util.Log
@@ -10,12 +10,10 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.elramady.permissionscheck.presentation.permissions.PermissionViewModel
-import com.elramady.permissionscheck.presentation.permissions.RationalPermissionScreen
-import com.elramady.permissionscheck.presentation.permissions.SettingPermissionDialogScreen
+import com.alexonsn.tavolo.presentation.components.permissions.PermissionsScreenEvent
 
 @Composable
-fun PermissionsCheckingScreen(
+fun PermissionsCheckScreen(
     viewModel: PermissionViewModel = hiltViewModel(),
     isRationalUiFirst:Boolean=false,
     titleRationalUi:String="Permission Needed",

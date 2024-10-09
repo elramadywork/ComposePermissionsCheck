@@ -71,11 +71,13 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation(project(":PermissionsCheck"))
 
     //dagger hilt
     implementation("com.google.dagger:hilt-android:2.49")
     ksp("com.google.dagger:hilt-android-compiler:2.49")
+
+    implementation ("com.github.elramadywork:ElramadyPermissionCheck:v.1.1")
+
 
 
 }
