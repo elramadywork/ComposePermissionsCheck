@@ -3,7 +3,7 @@
 
 
 ## Defination
-This is library is used to request and check permession(single or multible) With Rationale UI for only **Jetpack Compose**
+This is library is used to request and check permession(single or multible) With Rationale UI just give it permission name support only **Jetpack Compose**
 
 ## Features
 - **Handling** request and check Permissions (single or multible) with results (if granted or not)
